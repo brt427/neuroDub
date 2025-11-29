@@ -1,0 +1,27 @@
+# Core ML Dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.35.0
+accelerate>=0.24.0
+bitsandbytes>=0.41.0
+
+# Vision/Video Processing
+opencv-python>=4.8.0
+pillow>=10.0.0
+decord>=0.6.0
+
+# Audio Processing (for later phases)
+# diffusers>=0.24.0
+# librosa>=0.10.0
+# ffmpeg-python>=0.2.0
+
+# API Framework (for later phases)
+# fastapi>=0.104.0
+# uvicorn[standard]>=0.24.0
+# websockets>=12.0
+# python-multipart>=0.0.6
+
+# Utilities
+numpy>=1.24.0
+tqdm>=4.66.0
+pyyaml>=6.0

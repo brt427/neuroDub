@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+neurodub-env/
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Video files (test data - too large for git)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Audio files (generated outputs)
+*.wav
+*.mp3
+*.flac
+
+# Model cache (downloaded from HuggingFace)
+models/
+*.bin
+*.safetensors
+.cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
